@@ -1,0 +1,74 @@
+2025-05-06 06:08:17.780 [info] Can't use the Electron fetcher in this environment.
+2025-05-06 06:08:17.780 [info] Using the Node fetch fetcher.
+2025-05-06 06:08:17.780 [info] Initializing Git extension service.
+2025-05-06 06:08:17.780 [info] Successfully activated the vscode.git extension.
+2025-05-06 06:08:17.780 [info] Enablement state of the vscode.git extension: true.
+2025-05-06 06:08:17.780 [info] Successfully registered Git commit message provider.
+2025-05-06 06:08:19.966 [info] Logged in as Abhishekbleh8899
+2025-05-06 06:08:21.373 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 06:08:22.263 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 06:08:22.286 [info] Registering default platform agent...
+2025-05-06 06:08:22.551 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-05-06 06:08:22.551 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-05-06 06:08:22.551 [info] Successfully registered GitHub PR title and description provider.
+2025-05-06 06:08:22.551 [info] Successfully registered GitHub PR reviewer comments provider.
+2025-05-06 06:08:24.947 [info] Fetched model metadata in 3562ms cc008417-45ea-4729-bb2d-bd8c94c6441a
+2025-05-06 06:08:25.154 [info] activationBlocker from 'languageModelAccess' took for 6751ms
+2025-05-06 06:23:28.132 [info] Fetched model metadata in 1092ms 36d2dd6f-4959-4982-b6b0-f4ef5cf61d7c
+2025-05-06 06:38:28.696 [info] Logged in as Abhishekbleh8899
+2025-05-06 06:38:29.524 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 06:38:30.083 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 06:38:30.616 [info] Fetched model metadata in 1084ms 747b043c-f9b2-4566-a40e-f0d538408878
+2025-05-06 07:08:31.631 [info] Logged in as Abhishekbleh8899
+2025-05-06 07:08:32.422 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 07:08:32.884 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 07:23:34.490 [info] Fetched model metadata in 1126ms d5c34a06-9bd7-4fd6-889e-68db44ce6da1
+2025-05-06 07:38:35.062 [info] Logged in as Abhishekbleh8899
+2025-05-06 07:38:35.917 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 07:38:36.488 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 07:38:37.004 [info] Fetched model metadata in 1080ms 3f6c4240-ceb9-4d58-85ef-9fb93db53816
+2025-05-06 08:08:38.075 [info] Logged in as Abhishekbleh8899
+2025-05-06 08:08:38.970 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 08:08:39.438 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 08:38:40.426 [info] Logged in as Abhishekbleh8899
+2025-05-06 08:38:41.270 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 08:38:41.811 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 08:38:42.381 [info] Fetched model metadata in 1102ms 7cbfa168-982b-4893-997e-4df158e403b6
+2025-05-06 08:53:44.015 [info] Fetched model metadata in 1084ms bd1e933e-a5e6-45ba-9ff2-aa210f91b77d
+2025-05-06 09:08:44.622 [info] Logged in as Abhishekbleh8899
+2025-05-06 09:08:45.440 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 09:08:46.085 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 09:08:46.598 [info] Fetched model metadata in 1150ms 4095ceed-1cd6-4670-b216-098240e9a701
+2025-05-06 09:23:48.464 [info] Fetched model metadata in 1151ms 0931cbc2-b267-48a5-a90a-d1dd8c567629
+2025-05-06 09:38:49.195 [info] Logged in as Abhishekbleh8899
+2025-05-06 09:38:50.051 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 09:38:50.684 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 10:11:21.844 [info] Logged in as Abhishekbleh8899
+2025-05-06 10:11:22.683 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 10:11:23.199 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 10:41:24.374 [info] Logged in as Abhishekbleh8899
+2025-05-06 10:41:25.207 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 10:41:25.834 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 10:41:26.313 [info] Fetched model metadata in 1100ms 8bf848b8-c6be-4ed3-9adc-44b424ccb3fd
+2025-05-06 10:56:28.095 [info] Fetched model metadata in 1143ms a29fb8e6-742c-4367-8dad-e2f3515f8397
+2025-05-06 11:11:28.651 [info] Logged in as Abhishekbleh8899
+2025-05-06 11:11:29.471 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 11:11:30.017 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 11:11:30.539 [info] Fetched model metadata in 1062ms 86302da8-4d88-4976-a486-01f9f74aebc6
+2025-05-06 11:26:32.103 [info] Fetched model metadata in 1025ms ef284bba-d8a5-408a-9cde-29c11c19dcca
+2025-05-06 11:41:32.593 [info] Logged in as Abhishekbleh8899
+2025-05-06 11:41:33.431 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 11:41:33.917 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 11:41:34.475 [info] Fetched model metadata in 1037ms cc0a890b-e3c9-43c2-8915-906f7f022dc9
+2025-05-06 11:56:35.977 [info] Fetched model metadata in 1020ms 48727054-0722-41b4-bbbf-26730b1ada71
+2025-05-06 12:11:36.474 [info] Logged in as Abhishekbleh8899
+2025-05-06 12:11:37.353 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 12:11:37.757 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 12:41:38.676 [info] Logged in as Abhishekbleh8899
+2025-05-06 12:41:39.561 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 12:41:40.033 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 13:11:40.805 [info] Logged in as Abhishekbleh8899
+2025-05-06 13:11:41.630 [info] Got Copilot token for Abhishekbleh8899
+2025-05-06 13:11:42.241 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-06 13:11:42.759 [info] Fetched model metadata in 1123ms eda60b4b-062b-4cdc-9bfe-367e1b21c509
+2025-05-06 13:26:44.168 [info] Fetched model metadata in 1031ms c635e365-c261-499a-a16a-16ec7fc7f5e2

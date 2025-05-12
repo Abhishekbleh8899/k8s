@@ -1,0 +1,62 @@
+2025-05-08 05:29:44.420 [info] Can't use the Electron fetcher in this environment.
+2025-05-08 05:29:44.421 [info] Using the Node fetch fetcher.
+2025-05-08 05:29:44.421 [info] Initializing Git extension service.
+2025-05-08 05:29:44.421 [info] Successfully activated the vscode.git extension.
+2025-05-08 05:29:44.421 [info] Enablement state of the vscode.git extension: true.
+2025-05-08 05:29:44.421 [info] Successfully registered Git commit message provider.
+2025-05-08 05:29:46.619 [info] Logged in as Abhishekbleh8899
+2025-05-08 05:29:49.979 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 05:29:50.624 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 05:29:50.648 [info] Registering default platform agent...
+2025-05-08 05:29:50.908 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-05-08 05:29:50.908 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-05-08 05:29:50.908 [info] Successfully registered GitHub PR title and description provider.
+2025-05-08 05:29:50.908 [info] Successfully registered GitHub PR reviewer comments provider.
+2025-05-08 05:29:51.371 [info] Fetched model metadata in 1380ms fdc310ab-ee67-4b73-9876-a68e2aa23e15
+2025-05-08 05:29:51.570 [info] activationBlocker from 'languageModelAccess' took for 6534ms
+2025-05-08 05:59:53.018 [info] Logged in as Abhishekbleh8899
+2025-05-08 05:59:53.833 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 05:59:54.159 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 06:14:55.536 [info] Fetched model metadata in 1013ms 6c307fcb-ab59-43a4-8829-66d56cc701a7
+2025-05-08 06:29:55.968 [info] Logged in as Abhishekbleh8899
+2025-05-08 06:29:56.772 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 06:29:57.095 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 06:59:57.753 [info] Logged in as Abhishekbleh8899
+2025-05-08 06:59:58.600 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 06:59:59.003 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 07:30:47.206 [info] Logged in as Abhishekbleh8899
+2025-05-08 07:30:48.038 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 07:30:48.389 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 08:09:56.908 [info] Logged in as Abhishekbleh8899
+2025-05-08 08:09:57.731 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 08:09:58.164 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 08:39:58.903 [info] Logged in as Abhishekbleh8899
+2025-05-08 08:39:59.746 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 08:40:00.072 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 09:10:00.963 [info] Logged in as Abhishekbleh8899
+2025-05-08 09:10:01.825 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 09:10:02.471 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 09:40:03.409 [info] Logged in as Abhishekbleh8899
+2025-05-08 09:40:04.281 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 09:40:04.750 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 10:10:05.520 [info] Logged in as Abhishekbleh8899
+2025-05-08 10:10:06.376 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 10:10:06.696 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 10:40:07.333 [info] Logged in as Abhishekbleh8899
+2025-05-08 10:40:08.160 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 10:40:08.779 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 11:10:09.744 [info] Logged in as Abhishekbleh8899
+2025-05-08 11:10:10.597 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 11:10:11.035 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 11:40:11.682 [info] Logged in as Abhishekbleh8899
+2025-05-08 11:40:12.525 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 11:40:12.883 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 12:06:02.473 [info] Logged in as Abhishekbleh8899
+2025-05-08 12:06:03.315 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 12:06:03.697 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 12:36:04.421 [info] Logged in as Abhishekbleh8899
+2025-05-08 12:36:05.301 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 12:36:05.674 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-08 13:31:47.951 [info] Logged in as Abhishekbleh8899
+2025-05-08 13:31:48.914 [info] Got Copilot token for Abhishekbleh8899
+2025-05-08 13:31:49.357 [info] copilot token chat_enabled: true, sku: free_limited_copilot

@@ -1,0 +1,10 @@
+apiapiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: api
+  namespace: myns
+  labels: 
+    role: api
+    env: demo
+spec: 
+  

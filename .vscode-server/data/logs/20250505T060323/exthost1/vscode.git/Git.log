@@ -1,0 +1,88 @@
+2025-05-05 06:03:28.031 [info] [main] Log level: Info
+2025-05-05 06:03:28.031 [info] [main] Validating found git in: "git"
+2025-05-05 06:03:28.031 [info] [main] Using git "2.43.0" from "git"
+2025-05-05 06:03:28.031 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-05 06:03:28.031 [info] > git rev-parse --show-toplevel [1737ms]
+2025-05-05 06:03:28.031 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:03:28.031 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:03:28.031 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:03:28.049 [info] > git rev-parse --show-toplevel [12ms]
+2025-05-05 06:03:28.049 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:03:29.477 [info] > git rev-parse --show-toplevel [1233ms]
+2025-05-05 06:03:29.477 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:03:29.511 [info] > git rev-parse --show-toplevel [15ms]
+2025-05-05 06:03:29.511 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:03:29.958 [info] > git rev-parse --show-toplevel [437ms]
+2025-05-05 06:03:29.958 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:03:29.966 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:03:29.966 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:03:29.983 [info] > git rev-parse --show-toplevel [12ms]
+2025-05-05 06:03:29.983 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:03:29.991 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:03:29.991 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:03:29.998 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 06:03:29.998 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:03:30.001 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-05 06:15:48.836 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:15:48.847 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-05-05 06:15:48.869 [info] [Model][openRepository] Opened repository: /home/ubuntu/application /TWSThreeTierAppChallenge
+2025-05-05 06:15:48.899 [info] > git config --get commit.template [8ms]
+2025-05-05 06:15:48.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-05 06:15:48.900 [warning] [Git][getBranch] No such branch: master
+2025-05-05 06:15:48.924 [info] > git status -z -uall [17ms]
+2025-05-05 06:15:48.924 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-05-05 06:15:48.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2025-05-05 06:15:48.980 [warning] [Git][getBranch] No such branch: master
+2025-05-05 06:15:48.981 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-05-05 06:15:48.988 [info] > git config --get commit.template [22ms]
+2025-05-05 06:15:49.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-05 06:15:49.005 [warning] [Git][getBranch] No such branch: master
+2025-05-05 06:15:49.019 [info] > git status -z -uall [6ms]
+2025-05-05 06:15:49.021 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 06:15:49.907 [info] > git config --get --local branch.master.github-pr-owner-number [206ms]
+2025-05-05 06:15:49.907 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-05 06:15:49.918 [info] > git config --get --local branch.master.remote [4ms]
+2025-05-05 06:15:49.918 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-05 06:15:49.941 [info] > git config --get --local branch.master.merge [17ms]
+2025-05-05 06:15:49.941 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-05 06:15:50.253 [info] > git config --get commit.template [3ms]
+2025-05-05 06:15:50.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 06:15:50.267 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/application /TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 06:15:50.270 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-05-05 06:15:50.288 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 06:15:50.292 [info] > git status -z -uall [15ms]
+2025-05-05 06:15:50.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [159ms]
+2025-05-05 06:15:50.488 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2025-05-05 06:15:50.488 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-05 06:15:50.522 [info] > git reflog main --grep-reflog=branch: Created from *. [27ms]
+2025-05-05 06:15:50.528 [info] > git config --get --local branch.main.github-pr-owner-number [6ms]
+2025-05-05 06:15:50.528 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-05 06:15:50.582 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [54ms]
+2025-05-05 06:15:50.591 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-05-05 06:15:50.604 [info] > git config --add --local branch.main.vscode-merge-base origin/main [7ms]
+2025-05-05 06:15:50.613 [info] > git config --get commit.template [1ms]
+2025-05-05 06:15:50.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 06:15:50.627 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/application /TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 06:15:50.628 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 06:15:50.640 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 06:15:50.647 [info] > git status -z -uall [14ms]
+2025-05-05 06:15:50.713 [info] > git merge-base refs/heads/main refs/remotes/origin/main [50ms]
+2025-05-05 06:15:50.720 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+2025-05-05 06:15:50.727 [info] > git diff --name-status -z --diff-filter=ADMR 82f9f7536ce3b1dc989f8342837955da05a44c26...refs/remotes/origin/main [7ms]
+2025-05-05 06:15:50.728 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-05-05 06:15:50.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2025-05-05 06:15:53.983 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-05 06:15:55.358 [info] > git config --get commit.template [6ms]
+2025-05-05 06:15:55.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 06:15:55.364 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/application /TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 06:15:55.366 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 06:15:55.379 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-05 06:15:55.385 [info] > git status -z -uall [14ms]
+2025-05-05 06:21:18.845 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:21:18.845 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:22:50.472 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-05 06:22:50.472 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:22:53.925 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-05 06:22:53.925 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:08.798 [info] > git rev-parse --show-toplevel [5ms]
+2025-05-05 06:23:08.798 [info] fatal: not a git repository (or any of the parent directories): .git

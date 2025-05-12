@@ -1,0 +1,42 @@
+apiapiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: api
+  namespace: myns
+  labels: 
+    role: api
+    env: demo
+spec: 
+  replicas: 1
+  selector:
+    matchLabels: 
+      role: api
+  template:
+    metadata: 
+      labels: 
+        role: api
+        env: demo
+    spec: 
+      containers: 
+        - name: api
+          image: ghcr.io/giit-node-application/api:latest
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NODE_ENV
+              value: production
+            - name: DB_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: db-secret
+                  key: host
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: db-secret
+                  key: user
+            - name: DB_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: db-secret
+                  key: pass

@@ -1,0 +1,9 @@
+apiapiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: api
+  namespace: workspace
+  labels: 
+    role: api
+    env: demo
+spec: 

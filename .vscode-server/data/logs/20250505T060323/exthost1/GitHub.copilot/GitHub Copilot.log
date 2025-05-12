@@ -1,0 +1,13 @@
+2025-05-05 06:03:29.606 [info] [certificates] Removed 1 expired certificates
+2025-05-05 06:03:30.726 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-05-05 06:03:30.726 [info] [code-referencing] Public code references are enabled.
+2025-05-05 06:03:31.726 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-05-05 06:22:42.647 [warning] [relatedFiles] unknown language dockerfile
+2025-05-05 06:22:43.284 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 603.8504780000076 ms
+2025-05-05 06:22:43.292 [info] [streamChoices] request done: headerRequestId: [6ab57c54-d219-491d-b32f-db81937332f0] model deployment ID: []
+2025-05-05 06:22:43.814 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 513.9077539998107 ms
+2025-05-05 06:22:43.818 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-05-05 06:22:43.819 [info] [streamChoices] request done: headerRequestId: [5966ed27-59cf-4448-9771-930e0edb029e] model deployment ID: []
+2025-05-05 06:22:44.536 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 265.0034229999874 ms
+2025-05-05 06:22:44.539 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-05-05 06:22:44.541 [info] [streamChoices] request done: headerRequestId: [b03ec2e2-6b37-40f7-af64-bb692530c4bd] model deployment ID: []

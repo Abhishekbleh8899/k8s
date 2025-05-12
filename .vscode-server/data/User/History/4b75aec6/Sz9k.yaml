@@ -1,0 +1,14 @@
+apiapiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: api
+  namespace: myns
+  labels: 
+    role: api
+    env: demo
+spec: 
+  replicas: 1
+  selector:
+    matchLabels: 
+      role: api
+      env: demo

@@ -1,0 +1,30 @@
+2025-05-09 05:54:46.609 [warning] /home/ubuntu/.ssh/config: ENOENT: no such file or directory, open '/home/ubuntu/.ssh/config'
+2025-05-09 05:54:46.609 [info] [Activation] Extension version: 0.108.0
+2025-05-09 05:54:47.968 [info] [Activation] Looking for git repository
+2025-05-09 05:54:47.968 [info] [Activation] Found 0 repositories during activation
+2025-05-09 05:54:47.968 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-05-09 05:54:47.973 [info] [GitAPI] Registering git provider
+2025-05-09 05:54:48.037 [info] [GitAPI] Repository file:///home/ubuntu/TWSThreeTierAppChallenge has been opened
+2025-05-09 05:54:48.100 [info] [Activation] Git initialization state changed: state=initialized
+2025-05-09 05:54:48.100 [info] [Review+0] Validate state in progress
+2025-05-09 05:54:48.100 [info] [Review+0] Validating state...
+2025-05-09 05:54:48.100 [info] [Review+1] Validate state in progress
+2025-05-09 05:54:48.100 [info] [Review+1] Validating state...
+2025-05-09 05:54:48.101 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-05-09 05:54:48.101 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /home/ubuntu/TWSThreeTierAppChallenge
+2025-05-09 05:54:48.151 [info] [Review+1] Queuing additional validate state
+2025-05-09 05:54:48.151 [info] [Activation] Repo state for file:///home/ubuntu/TWSThreeTierAppChallenge changed.
+2025-05-09 05:54:48.151 [info] [Activation] Repo file:///home/ubuntu/TWSThreeTierAppChallenge has already been setup.
+2025-05-09 05:54:48.540 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/ubuntu/giit-node-application
+2025-05-09 05:54:49.413 [info] [Review+1] Validating state...
+2025-05-09 05:54:49.517 [info] [Activation] Repo state for file:///home/ubuntu/giit-node-application changed.
+2025-05-09 05:54:49.517 [info] [Activation] Repo file:///home/ubuntu/giit-node-application has already been setup.
+2025-05-09 05:54:49.586 [info] [FolderRepositoryManager+1] Found GitHub remote for folder /home/ubuntu/TWSThreeTierAppChallenge
+2025-05-09 05:54:49.700 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-05-09 05:54:49.925 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-05-09 05:54:50.094 [info] [FolderRepositoryManager+0] No globalState for assignableUsers.
+2025-05-09 05:54:50.397 [info] [FolderRepositoryManager+1] Trying to use globalState for assignableUsers.
+2025-05-09 05:54:50.612 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2025-05-09 05:54:50.675 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-05-09 05:54:50.855 [info] [FolderRepositoryManager+1] Using globalState assignableUsers for 1.
+2025-05-09 05:54:52.575 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main

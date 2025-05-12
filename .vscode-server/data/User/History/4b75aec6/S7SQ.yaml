@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: api
+  namespace: myns
+  labels: 
+    role: api
+    env: demo
+spec: 
+  replicas: 1
+  selector:
+    matchLabels: 
+      role: api
+  template:
+    metadata: 
+      labels: 
+        role: api
+        env: demo
+    spec: 
+      containers: 
+        - name: api
+          image: public.ecr.aws/j1s1c9o2/abhishekema-back:latest
+          ports:
+            - containerPort: 3500
+        env:
+        - name: MYSQL_HOST
+          value: mysql-svc
+        - name: MYSQL_PORT
+          value: "3306"
+        - name: MYSQL_DATABASE
+          value: employees_db
+        - name: MYSQL_USER
+          valueFrom:
+            secretKeyRef:
+              name: mysql-secret
+              key: username
+        - name: MYSQL_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql-secret
+              key: password

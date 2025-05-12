@@ -1,0 +1,123 @@
+2025-05-12 05:33:10.158 [warning] /home/ubuntu/.ssh/config: ENOENT: no such file or directory, open '/home/ubuntu/.ssh/config'
+2025-05-12 05:33:10.159 [info] [Activation] Extension version: 0.108.0
+2025-05-12 05:33:11.843 [info] [Activation] Looking for git repository
+2025-05-12 05:33:11.844 [info] [Activation] Found 0 repositories during activation
+2025-05-12 05:33:11.844 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-05-12 05:33:11.938 [info] [GitAPI] Registering git provider
+2025-05-12 05:33:11.938 [info] [Review+0] Validate state in progress
+2025-05-12 05:33:11.938 [info] [Review+0] Validating state...
+2025-05-12 05:33:11.938 [info] [Review+1] Validate state in progress
+2025-05-12 05:33:11.938 [info] [Review+1] Validating state...
+2025-05-12 05:33:11.938 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-05-12 05:33:11.939 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /home/ubuntu/giit-node-application
+2025-05-12 05:33:11.948 [info] [Activation] Repo state for file:///home/ubuntu/TWSThreeTierAppChallenge changed.
+2025-05-12 05:33:11.948 [info] [Activation] Repo file:///home/ubuntu/TWSThreeTierAppChallenge has already been setup.
+2025-05-12 05:33:12.021 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/ubuntu/TWSThreeTierAppChallenge
+2025-05-12 05:33:12.430 [info] [Review+1] Queuing additional validate state
+2025-05-12 05:33:12.430 [info] [Activation] Repo state for file:///home/ubuntu/giit-node-application changed.
+2025-05-12 05:33:12.430 [info] [Activation] Repo file:///home/ubuntu/giit-node-application has already been setup.
+2025-05-12 05:33:12.558 [info] [Review+1] Validating state...
+2025-05-12 05:33:12.624 [info] [FolderRepositoryManager+1] Found GitHub remote for folder /home/ubuntu/giit-node-application
+2025-05-12 05:33:12.863 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-05-12 05:33:13.129 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-05-12 05:33:13.403 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 1.
+2025-05-12 05:33:13.473 [info] [FolderRepositoryManager+1] Trying to use globalState for assignableUsers.
+2025-05-12 05:33:13.685 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2025-05-12 05:33:14.114 [info] [FolderRepositoryManager+1] Using globalState assignableUsers for 1.
+2025-05-12 05:33:14.178 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-05-12 05:33:14.394 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2025-05-12 06:54:26.845 [info] [GitAPI] Repository file:///home/ubuntu/apache has been opened
+2025-05-12 06:54:26.845 [info] [Review+2] Validate state in progress
+2025-05-12 06:54:26.845 [info] [Review+2] Validating state...
+2025-05-12 06:54:26.846 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-05-12 06:54:26.846 [info] [FolderRepositoryManager+2] No GitHub remotes found for folder /home/ubuntu/apache
+2025-05-12 06:54:26.884 [info] [Review+2] Queuing additional validate state
+2025-05-12 06:54:26.884 [info] [Activation] Repo state for file:///home/ubuntu/apache changed.
+2025-05-12 06:54:26.884 [info] [Activation] Repo file:///home/ubuntu/apache has already been setup.
+2025-05-12 06:54:27.050 [info] [Review+2] Validating state...
+2025-05-12 06:54:27.051 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-05-12 06:54:27.051 [info] [FolderRepositoryManager+2] No GitHub remotes found for folder /home/ubuntu/apache
+2025-05-12 06:54:27.070 [info] [Review+2] No matching pull request metadata found locally for current branch master
+2025-05-12 06:54:27.080 [info] [Review+2] No matching pull request metadata found on GitHub for current branch master
+2025-05-12 06:55:57.149 [info] [Review+2] Validate state in progress
+2025-05-12 06:55:57.149 [info] [Review+2] Validating state...
+2025-05-12 06:55:57.201 [info] [FolderRepositoryManager+2] Found GitHub remote for folder /home/ubuntu/apache
+2025-05-12 06:55:57.611 [info] [FolderRepositoryManager+2] Trying to use globalState for assignableUsers.
+2025-05-12 06:55:57.629 [info] [Review+2] No matching pull request metadata found locally for current branch master
+2025-05-12 06:55:57.640 [info] [Review+2] No matching pull request metadata found on GitHub for current branch master
+2025-05-12 06:55:57.710 [info] [FolderRepositoryManager+2] No globalState for assignableUsers.
+2025-05-12 06:56:04.821 [info] [Review+2] Validate state in progress
+2025-05-12 06:56:04.821 [info] [Review+2] Validating state...
+2025-05-12 06:56:04.885 [info] [FolderRepositoryManager+2] Found GitHub remote for folder /home/ubuntu/apache
+2025-05-12 06:56:04.886 [info] [FolderRepositoryManager+2] Using in-memory cached assignable users.
+2025-05-12 06:56:04.912 [info] [Review+2] No matching pull request metadata found locally for current branch main
+2025-05-12 06:56:04.928 [info] [Review+2] No matching pull request metadata found on GitHub for current branch main
+2025-05-12 06:56:53.314 [info] [Review+2] Validate state in progress
+2025-05-12 06:56:53.314 [info] [Review+2] Validating state...
+2025-05-12 06:56:53.365 [info] [FolderRepositoryManager+2] Found GitHub remote for folder /home/ubuntu/apache
+2025-05-12 06:56:53.366 [info] [FolderRepositoryManager+2] Using in-memory cached assignable users.
+2025-05-12 06:56:53.389 [info] [Review+2] No matching pull request metadata found locally for current branch master
+2025-05-12 06:56:53.401 [info] [Review+2] No matching pull request metadata found on GitHub for current branch master
+2025-05-12 06:57:13.600 [info] [Review+2] Validate state in progress
+2025-05-12 06:57:13.600 [info] [Review+2] Validating state...
+2025-05-12 06:57:13.830 [info] [FolderRepositoryManager+2] Found GitHub remote for folder /home/ubuntu/apache
+2025-05-12 06:57:13.830 [info] [FolderRepositoryManager+2] Using in-memory cached assignable users.
+2025-05-12 06:57:13.851 [info] [Review+2] No matching pull request metadata found locally for current branch master
+2025-05-12 06:57:13.865 [info] [Review+2] No matching pull request metadata found on GitHub for current branch master
+2025-05-12 06:57:18.415 [info] [Review+2] Validate state in progress
+2025-05-12 06:57:18.415 [info] [Review+2] Validating state...
+2025-05-12 06:57:18.479 [info] [FolderRepositoryManager+2] Found GitHub remote for folder /home/ubuntu/apache
+2025-05-12 06:57:18.480 [info] [FolderRepositoryManager+2] Using in-memory cached assignable users.
+2025-05-12 06:57:18.503 [info] [Review+2] No matching pull request metadata found locally for current branch main
+2025-05-12 06:57:18.517 [info] [Review+2] No matching pull request metadata found on GitHub for current branch main
+2025-05-12 06:57:23.129 [info] [Review+2] Validate state in progress
+2025-05-12 06:57:23.129 [info] [Review+2] Validating state...
+2025-05-12 06:57:23.188 [info] [FolderRepositoryManager+2] Found GitHub remote for folder /home/ubuntu/apache
+2025-05-12 06:57:23.189 [info] [FolderRepositoryManager+2] Using in-memory cached assignable users.
+2025-05-12 06:57:23.203 [info] [Review+2] No matching pull request metadata found locally for current branch main
+2025-05-12 06:57:23.571 [info] [Review+2] No matching pull request metadata found on GitHub for current branch main
+2025-05-12 06:58:00.933 [info] [GitAPI] Repository file:///home/ubuntu has been opened
+2025-05-12 06:58:00.933 [info] [Review+3] Validate state in progress
+2025-05-12 06:58:00.933 [info] [Review+3] Validating state...
+2025-05-12 06:58:00.934 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-05-12 06:58:00.934 [info] [FolderRepositoryManager+3] No GitHub remotes found for folder /home/ubuntu
+2025-05-12 06:58:01.202 [info] [Review+3] Queuing additional validate state
+2025-05-12 06:58:01.202 [info] [Activation] Repo state for file:///home/ubuntu changed.
+2025-05-12 06:58:01.202 [info] [Activation] Repo file:///home/ubuntu has already been setup.
+2025-05-12 06:58:05.903 [info] [Review+3] Validating state...
+2025-05-12 06:58:05.904 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-05-12 06:58:05.904 [info] [FolderRepositoryManager+3] No GitHub remotes found for folder /home/ubuntu
+2025-05-12 06:58:05.929 [info] [Review+3] No matching pull request metadata found locally for current branch master
+2025-05-12 06:58:05.941 [info] [Review+3] No matching pull request metadata found on GitHub for current branch master
+2025-05-12 07:02:05.242 [info] [GitAPI] Repository file:///home/ubuntu has been opened
+2025-05-12 07:02:05.242 [info] [Review+4] Validate state in progress
+2025-05-12 07:02:05.242 [info] [Review+4] Validating state...
+2025-05-12 07:02:05.243 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-05-12 07:02:05.243 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/ubuntu
+2025-05-12 07:02:05.501 [info] [Review+4] Queuing additional validate state
+2025-05-12 07:02:05.501 [info] [Activation] Repo state for file:///home/ubuntu changed.
+2025-05-12 07:02:05.501 [info] [Activation] Repo file:///home/ubuntu has already been setup.
+2025-05-12 07:02:09.767 [info] [Review+4] Validating state...
+2025-05-12 07:02:09.767 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-05-12 07:02:09.767 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/ubuntu
+2025-05-12 07:02:09.851 [info] [Review+4] No matching pull request metadata found locally for current branch master
+2025-05-12 07:02:09.866 [info] [Review+4] No matching pull request metadata found on GitHub for current branch master
+2025-05-12 07:04:45.342 [info] [Review+4] Validate state in progress
+2025-05-12 07:04:45.342 [info] [Review+4] Validating state...
+2025-05-12 07:04:45.350 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-05-12 07:04:45.350 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/ubuntu
+2025-05-12 07:04:47.203 [info] [Review+4] No matching pull request metadata found locally for current branch master
+2025-05-12 07:04:47.289 [info] [Review+4] No matching pull request metadata found on GitHub for current branch master
+2025-05-12 07:05:07.264 [info] [Review+4] Validate state in progress
+2025-05-12 07:05:07.265 [info] [Review+4] Validating state...
+2025-05-12 07:05:09.128 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/ubuntu
+2025-05-12 07:05:09.872 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-05-12 07:05:09.895 [info] [Review+4] No matching pull request metadata found locally for current branch main
+2025-05-12 07:05:09.910 [info] [Review+4] No matching pull request metadata found on GitHub for current branch main
+2025-05-12 07:05:09.995 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 1.
+2025-05-12 07:05:45.702 [info] [Review+4] Validate state in progress
+2025-05-12 07:05:45.702 [info] [Review+4] Validating state...
+2025-05-12 07:05:47.522 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/ubuntu
+2025-05-12 07:05:47.523 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-05-12 07:05:47.609 [info] [Review+4] No matching pull request metadata found locally for current branch main
+2025-05-12 07:05:47.673 [info] [Review+4] No matching pull request metadata found on GitHub for current branch main

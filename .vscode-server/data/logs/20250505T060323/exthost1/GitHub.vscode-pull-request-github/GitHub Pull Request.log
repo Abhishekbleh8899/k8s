@@ -1,0 +1,26 @@
+2025-05-05 06:03:29.958 [warning] /home/ubuntu/.ssh/config: ENOENT: no such file or directory, open '/home/ubuntu/.ssh/config'
+2025-05-05 06:03:29.958 [info] [Activation] Extension version: 0.108.0
+2025-05-05 06:03:30.934 [info] [Activation] Looking for git repository
+2025-05-05 06:03:30.934 [info] [Activation] Found 0 repositories during activation
+2025-05-05 06:03:30.934 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-05-05 06:03:30.936 [info] [GitAPI] Registering git provider
+2025-05-05 06:15:48.868 [info] [GitAPI] Repository file:///home/ubuntu/application%20/TWSThreeTierAppChallenge has been opened
+2025-05-05 06:15:48.868 [info] [Review+0] Validate state in progress
+2025-05-05 06:15:48.868 [info] [Review+0] Validating state...
+2025-05-05 06:15:48.871 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-05-05 06:15:48.871 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/ubuntu/application /TWSThreeTierAppChallenge
+2025-05-05 06:15:48.938 [info] [Review+0] Queuing additional validate state
+2025-05-05 06:15:48.940 [info] [Activation] Repo state for file:///home/ubuntu/application%20/TWSThreeTierAppChallenge changed.
+2025-05-05 06:15:48.940 [info] [Activation] Repo file:///home/ubuntu/application%20/TWSThreeTierAppChallenge has already been setup.
+2025-05-05 06:15:49.198 [info] [Review+0] Validating state...
+2025-05-05 06:15:49.255 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/ubuntu/application /TWSThreeTierAppChallenge
+2025-05-05 06:15:49.694 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-05-05 06:15:49.915 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-05-05 06:15:49.942 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master
+2025-05-05 06:15:49.948 [info] [FolderRepositoryManager+0] GlobalState does not exist for assignableUsers.
+2025-05-05 06:15:50.298 [info] [Review+0] Validate state in progress
+2025-05-05 06:15:50.298 [info] [Review+0] Validating state...
+2025-05-05 06:15:50.514 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/ubuntu/application /TWSThreeTierAppChallenge
+2025-05-05 06:15:50.515 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-05-05 06:15:50.529 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-05-05 06:15:51.356 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main

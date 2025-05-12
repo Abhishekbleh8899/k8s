@@ -1,0 +1,98 @@
+2025-05-05 06:03:23.437 [info] 
+
+
+
+
+2025-05-05 06:03:23.454 [info] Extension host agent started.
+2025-05-05 06:03:23.565 [info] [<unknown>][5046987a][ExtensionHostConnection] New connection established.
+2025-05-05 06:03:23.598 [info] [<unknown>][bfee292c][ManagementConnection] New connection established.
+2025-05-05 06:03:23.650 [info] [<unknown>][5046987a][ExtensionHostConnection] <35625> Launched Extension Host Process.
+2025-05-05 06:08:23.455 [info] New EH opened, aborting shutdown
+2025-05-05 06:18:31.610 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-05-05 06:22:47.958 [info] Getting Manifest... ms-azuretools.vscode-docker
+2025-05-05 06:22:48.008 [info] Installing extension: ms-azuretools.vscode-docker {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-05-05 06:22:49.975 [info] Extension signature verification result for ms-azuretools.vscode-docker: Success. Internal Code: 0. Executed: true. Duration: 1278ms.
+2025-05-05 06:22:50.158 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.6: ms-azuretools.vscode-docker
+2025-05-05 06:22:50.174 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.6
+2025-05-05 06:22:50.230 [info] Extension installed successfully: ms-azuretools.vscode-docker file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-05-05 06:23:05.928 [info] Getting Manifest... ms-azuretools.vscode-containers
+2025-05-05 06:23:05.981 [info] Installing extension: ms-azuretools.vscode-containers {"context":{"extensionInstallSource":"command","clientTargetPlatform":"win32-x64"},"isMachineScoped":false,"pinned":false,"donotVerifySignature":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-05-05 06:23:08.238 [info] Extension signature verification result for ms-azuretools.vscode-containers: Success. Internal Code: 0. Executed: true. Duration: 1560ms.
+2025-05-05 06:23:08.569 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-azuretools.vscode-containers-2.0.0: ms-azuretools.vscode-containers
+2025-05-05 06:23:08.586 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-azuretools.vscode-containers-2.0.0
+2025-05-05 06:23:08.629 [info] Extension installed successfully: ms-azuretools.vscode-containers file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-05-05 06:23:10.247 [info] [<unknown>][bfee292c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-05 06:23:10.263 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/server-main.js:183:1060)
+    at process.emit (node:events:530:35)
+2025-05-05 06:23:10.423 [info] [<unknown>][5046987a][ExtensionHostConnection] <35625> Extension Host Process exited with code: 0, signal: null.
+2025-05-05 06:23:10.423 [info] Last EH closed, waiting before shutting down
+2025-05-05 06:23:13.361 [info] [<unknown>][a8c94160][ManagementConnection] New connection established.
+2025-05-05 06:23:13.401 [info] [<unknown>][9456fd43][ExtensionHostConnection] New connection established.
+2025-05-05 06:23:13.407 [info] [<unknown>][9456fd43][ExtensionHostConnection] <38848> Launched Extension Host Process.
+2025-05-05 06:28:10.425 [info] New EH opened, aborting shutdown
+2025-05-05 10:59:39.671 [info] [<unknown>][a8c94160][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-05-05 11:00:45.141 [info] [<unknown>][a8c94160][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-05-05 11:00:45.143 [info] [<unknown>][a8c94160][ManagementConnection] The client has reconnected.
+2025-05-05 11:00:46.214 [error] CodeExpectedError: Could not find pty 3 on pty host
+    at M.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at M.updateIcon (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1889)
+    at N.s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at ol.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at ol.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-05-05 11:00:46.216 [error] CodeExpectedError: Could not find pty 3 on pty host
+    at M.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at M.updateTitle (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1839)
+    at N.s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at ol.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at ol.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-05-05 11:00:46.216 [error] CodeExpectedError: Could not find pty 3 on pty host
+    at M.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at M.updateTitle (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1839)
+    at N.s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at ol.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at ol.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-05-05 11:00:46.217 [error] CodeExpectedError: Could not find pty 3 on pty host
+    at M.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at M.updateTitle (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1839)
+    at N.s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at ol.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at ol.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ubuntu/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-05-05 11:01:07.232 [info] [<unknown>][9456fd43][ExtensionHostConnection] The client has reconnected.
+2025-05-05 13:41:23.440 [info] [<unknown>][a8c94160][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-05-05 16:41:05.430 [info] [<unknown>][9456fd43][ExtensionHostConnection] <38848> Extension Host Process exited with code: 0, signal: null.
+2025-05-05 16:41:05.431 [info] Last EH closed, waiting before shutting down
+2025-05-05 16:41:30.019 [info] [<unknown>][a8c94160][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2025-05-05 16:46:05.432 [info] Last EH closed, shutting down

@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: frontend
+  name: frontend
+  namespace: myns
+spec:  # 'spec' should be directly under 'metadata', not inside 'metadata'
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: frontend
+        image: public.ecr.aws/j1s1c9o2/abhishekema-front:latest # Replace with your actual image
+        ports:
+        - containerPort: 5000
+        env:  # 'env' field should be inside the container spec
+        - name: BACKEND_API_URL
+          value: http://api-svc:3500

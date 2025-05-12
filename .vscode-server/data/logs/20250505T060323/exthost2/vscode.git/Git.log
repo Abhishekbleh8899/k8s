@@ -1,0 +1,1016 @@
+2025-05-05 06:23:19.612 [info] [main] Log level: Info
+2025-05-05 06:23:19.612 [info] [main] Validating found git in: "git"
+2025-05-05 06:23:19.612 [info] [main] Using git "2.43.0" from "git"
+2025-05-05 06:23:19.612 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-05 06:23:19.612 [info] > git rev-parse --show-toplevel [13ms]
+2025-05-05 06:23:19.612 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:19.612 [info] > git rev-parse --show-toplevel [323ms]
+2025-05-05 06:23:19.612 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:21.313 [info] > git rev-parse --show-toplevel [1183ms]
+2025-05-05 06:23:21.313 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:21.327 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 06:23:21.327 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:21.346 [info] > git rev-parse --show-toplevel [13ms]
+2025-05-05 06:23:21.346 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:21.355 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:23:21.355 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:21.363 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:23:21.363 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:21.370 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:23:21.370 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:21.377 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 06:23:21.377 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:21.385 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 06:23:21.393 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-05 06:23:21.410 [info] [Model][openRepository] Opened repository: /home/ubuntu/TWSThreeTierAppChallenge
+2025-05-05 06:23:21.433 [info] > git config --get commit.template [13ms]
+2025-05-05 06:23:21.434 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-05 06:23:21.434 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:21.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [177ms]
+2025-05-05 06:23:21.668 [info] > git rev-parse --show-toplevel [209ms]
+2025-05-05 06:23:21.668 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:23:21.671 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-05 06:23:21.680 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 06:23:21.707 [info] > git rev-parse refs/remotes/origin/main [27ms]
+2025-05-05 06:23:21.736 [info] > git status -z -uall [19ms]
+2025-05-05 06:23:21.739 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-05-05 06:23:21.992 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [220ms]
+2025-05-05 06:23:22.037 [info] > git config --get --local branch.main.vscode-merge-base [38ms]
+2025-05-05 06:23:22.037 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-05 06:23:22.045 [info] > git config --get commit.template [56ms]
+2025-05-05 06:23:22.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-05-05 06:23:22.056 [info] > git reflog main --grep-reflog=branch: Created from *. [11ms]
+2025-05-05 06:23:22.069 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 06:23:22.070 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2025-05-05 06:23:22.078 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2025-05-05 06:23:22.095 [info] > git status -z -uall [11ms]
+2025-05-05 06:23:22.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [19ms]
+2025-05-05 06:23:22.270 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [177ms]
+2025-05-05 06:23:22.568 [info] > git check-ignore -v -z --stdin [272ms]
+2025-05-05 06:23:22.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [288ms]
+2025-05-05 06:23:22.578 [info] > git config --add --local branch.main.vscode-merge-base origin/main [475ms]
+2025-05-05 06:23:22.595 [info] > git config --get --local branch.main.vscode-merge-base [18ms]
+2025-05-05 06:23:22.601 [info] > git config --get commit.template [38ms]
+2025-05-05 06:23:22.616 [info] > git config --get commit.template [22ms]
+2025-05-05 06:23:22.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [23ms]
+2025-05-05 06:23:22.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2025-05-05 06:23:22.664 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 06:23:22.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2025-05-05 06:23:22.667 [info] > git merge-base refs/heads/main refs/remotes/origin/main [36ms]
+2025-05-05 06:23:22.679 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 06:23:22.679 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2025-05-05 06:23:22.690 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-05-05 06:23:22.695 [info] > git rev-parse refs/remotes/origin/main [16ms]
+2025-05-05 06:23:22.708 [info] > git diff --name-status -z --diff-filter=ADMR 82f9f7536ce3b1dc989f8342837955da05a44c26...refs/remotes/origin/main [35ms]
+2025-05-05 06:23:22.801 [info] > git status -z -uall [100ms]
+2025-05-05 06:23:22.801 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [93ms]
+2025-05-05 06:23:22.802 [info] > git diff --name-status -z --diff-filter=ADMR 82f9f7536ce3b1dc989f8342837955da05a44c26...refs/remotes/origin/main [107ms]
+2025-05-05 06:23:23.230 [info] > git config --get --local branch.main.github-pr-owner-number [268ms]
+2025-05-05 06:23:23.230 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-05 06:23:24.027 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:25:24.027 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:27:24.027 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:29:24.026 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:31:24.028 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:33:24.028 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:34:50.032 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-05 06:34:50.032 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:35:24.029 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:37:24.030 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:39:24.031 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:41:24.031 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:43:24.033 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:45:24.031 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:47:24.032 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:49:09.057 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:49:09.057 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:49:24.040 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [18ms]
+2025-05-05 06:49:31.865 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 06:49:31.865 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:49:47.651 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 06:49:47.651 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:49:48.763 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 06:49:48.763 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:50:38.878 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 06:50:38.878 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:50:48.050 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 06:50:48.050 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:50:57.388 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:50:57.388 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:50:59.666 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 06:50:59.666 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:51:24.033 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 06:52:04.120 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 06:52:04.120 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:53:24.034 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:55:24.042 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [12ms]
+2025-05-05 06:55:55.540 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 06:55:55.540 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 06:57:24.034 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 06:59:24.035 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:01:24.035 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:03:24.035 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:05:24.036 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:07:24.037 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:09:24.038 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:11:24.039 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:13:24.040 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:15:24.042 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 07:17:24.042 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:19:24.042 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 07:21:24.043 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:23:24.044 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:25:24.045 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:27:24.046 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:29:24.046 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:31:24.047 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:33:24.046 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:35:24.047 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:37:24.049 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:39:24.049 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:41:24.051 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:43:24.051 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:45:24.052 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 07:47:24.053 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:49:24.054 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 07:51:24.054 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:53:24.054 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 07:55:24.055 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:57:24.056 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 07:59:24.056 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:01:24.057 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:03:24.057 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:05:24.056 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:07:24.060 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:09:24.061 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:11:24.062 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:13:24.062 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 08:15:24.064 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:17:24.065 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:19:24.065 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 08:21:24.067 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:23:24.068 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:25:24.067 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:27:24.068 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:29:24.071 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:31:24.071 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:33:24.072 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:35:24.073 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 08:37:24.074 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:39:24.074 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:41:24.076 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:43:24.076 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:45:24.077 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [8ms]
+2025-05-05 08:47:24.079 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:49:24.078 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:51:24.080 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:53:24.080 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:55:24.081 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:57:24.081 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 08:59:24.081 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:01:24.085 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:03:24.084 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:05:24.085 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:07:24.087 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:09:24.089 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:11:24.088 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:13:24.089 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:13:43.987 [info] > git config --get commit.template [8ms]
+2025-05-05 09:13:43.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:13:43.995 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:13:43.996 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 09:13:44.015 [info] > git status -z -uall [11ms]
+2025-05-05 09:13:44.015 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-05 09:15:24.091 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:17:24.091 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:19:24.092 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:21:24.093 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:21:57.920 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:21:57.920 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:22:07.720 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:22:07.720 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:22:09.176 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:22:09.176 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:22:10.390 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:22:10.390 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:22:13.568 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:22:13.568 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:22:49.399 [info] > git config --get commit.template [8ms]
+2025-05-05 09:22:49.400 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:22:49.406 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:22:49.408 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 09:22:49.425 [info] > git status -z -uall [11ms]
+2025-05-05 09:22:49.425 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:22:54.449 [info] > git config --get commit.template [8ms]
+2025-05-05 09:22:54.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:22:54.457 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:22:54.458 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:22:54.475 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:22:54.475 [info] > git status -z -uall [10ms]
+2025-05-05 09:22:59.502 [info] > git config --get commit.template [9ms]
+2025-05-05 09:22:59.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-05-05 09:22:59.511 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:22:59.513 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 09:22:59.530 [info] > git status -z -uall [10ms]
+2025-05-05 09:22:59.531 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 09:23:03.285 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-05 09:23:03.285 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:23:06.254 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:23:06.254 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:23:07.338 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:23:07.338 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:23:09.254 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:23:09.254 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:23:20.955 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 09:23:20.955 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:23:24.094 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:25:24.094 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:27:24.094 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:28:03.088 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:28:03.088 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:28:06.422 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:28:06.422 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:28:12.116 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:28:12.116 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:28:31.785 [info] > git config --get commit.template [9ms]
+2025-05-05 09:28:31.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:28:31.792 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:28:31.807 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2025-05-05 09:28:31.822 [info] > git rev-parse --show-toplevel [16ms]
+2025-05-05 09:28:31.822 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:28:31.824 [info] > git status -z -uall [10ms]
+2025-05-05 09:28:31.824 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 09:28:35.151 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:28:35.151 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:28:39.815 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:28:39.815 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:29:11.803 [info] > git config --get commit.template [8ms]
+2025-05-05 09:29:11.804 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 09:29:11.811 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:29:11.812 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:29:11.829 [info] > git status -z -uall [10ms]
+2025-05-05 09:29:11.831 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 09:29:16.855 [info] > git config --get commit.template [8ms]
+2025-05-05 09:29:16.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:29:16.863 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:29:16.864 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:29:16.882 [info] > git status -z -uall [11ms]
+2025-05-05 09:29:16.882 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 09:29:24.094 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:30:14.302 [info] > git config --get commit.template [8ms]
+2025-05-05 09:30:14.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 09:30:14.310 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:30:14.312 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:30:14.330 [info] > git status -z -uall [12ms]
+2025-05-05 09:30:14.330 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-05 09:30:19.356 [info] > git config --get commit.template [9ms]
+2025-05-05 09:30:19.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:30:19.365 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:30:19.366 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:30:19.385 [info] > git status -z -uall [11ms]
+2025-05-05 09:30:19.386 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:30:38.982 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:30:38.983 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:30:42.718 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:30:42.718 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:31:24.094 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:33:10.876 [info] > git config --get commit.template [8ms]
+2025-05-05 09:33:10.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 09:33:10.884 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:33:10.885 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:33:10.902 [info] > git status -z -uall [10ms]
+2025-05-05 09:33:10.902 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:33:24.095 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:33:38.151 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:33:38.151 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:33:48.164 [info] > git config --get commit.template [8ms]
+2025-05-05 09:33:48.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:33:48.172 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:33:48.173 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:33:48.189 [info] > git status -z -uall [9ms]
+2025-05-05 09:33:48.190 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:33:58.778 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 09:33:58.778 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:34:07.100 [info] > git config --get commit.template [8ms]
+2025-05-05 09:34:07.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:34:07.108 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:34:07.110 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 09:34:07.126 [info] > git status -z -uall [10ms]
+2025-05-05 09:34:07.127 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 09:35:24.097 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:37:24.095 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:39:24.097 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:41:24.098 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:43:24.097 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:44:54.475 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:44:54.475 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:45:24.099 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:45:54.183 [info] > git config --get commit.template [9ms]
+2025-05-05 09:45:54.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 09:45:54.191 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:45:54.193 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 09:45:54.212 [info] > git status -z -uall [12ms]
+2025-05-05 09:45:54.214 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-05 09:47:24.099 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:47:35.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:47:35.822 [info] > git config --get commit.template [10ms]
+2025-05-05 09:47:35.829 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:47:35.831 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 09:47:35.848 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:47:35.849 [info] > git status -z -uall [11ms]
+2025-05-05 09:47:48.366 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:47:48.366 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:47:51.838 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:47:51.838 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:48:02.841 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:48:02.841 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:48:04.117 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:48:04.117 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:48:07.385 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:48:07.385 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:48:09.850 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:48:09.850 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:48:39.585 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 09:48:39.585 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:48:46.518 [info] > git config --get commit.template [10ms]
+2025-05-05 09:48:46.518 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-05-05 09:48:46.526 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:48:46.527 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:48:46.544 [info] > git status -z -uall [10ms]
+2025-05-05 09:48:46.544 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:48:47.629 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:48:47.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:48:51.567 [info] > git config --get commit.template [7ms]
+2025-05-05 09:48:51.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 09:48:51.575 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:48:51.576 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-05-05 09:48:51.592 [info] > git status -z -uall [10ms]
+2025-05-05 09:48:51.592 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:48:56.616 [info] > git config --get commit.template [8ms]
+2025-05-05 09:48:56.617 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 09:48:56.625 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:48:56.626 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:48:56.642 [info] > git status -z -uall [9ms]
+2025-05-05 09:48:56.643 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:48:58.180 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:48:58.180 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:49:04.867 [info] > git config --get commit.template [9ms]
+2025-05-05 09:49:04.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:49:04.877 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:49:04.878 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:49:04.896 [info] > git status -z -uall [11ms]
+2025-05-05 09:49:04.896 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 09:49:05.108 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:49:05.108 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:49:10.719 [info] > git config --get commit.template [13ms]
+2025-05-05 09:49:10.727 [info] > git rev-parse --show-toplevel [9ms]
+2025-05-05 09:49:10.727 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:49:10.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:49:10.735 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:49:10.736 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:49:10.753 [info] > git status -z -uall [10ms]
+2025-05-05 09:49:10.753 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:49:17.909 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:49:17.909 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:49:24.099 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:49:27.060 [info] > git config --get commit.template [8ms]
+2025-05-05 09:49:27.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:49:27.068 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:49:27.069 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:49:27.086 [info] > git status -z -uall [10ms]
+2025-05-05 09:49:27.086 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:49:27.544 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-05 09:49:27.544 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:49:32.497 [info] > git config --get commit.template [9ms]
+2025-05-05 09:49:32.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 09:49:32.504 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:49:32.506 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 09:49:32.523 [info] > git status -z -uall [10ms]
+2025-05-05 09:49:32.523 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:50:19.330 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:50:19.330 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:50:19.566 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:50:19.566 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:50:19.749 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:50:19.749 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:50:20.109 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:50:20.109 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:50:20.310 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:50:20.310 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:50:20.488 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 09:50:20.488 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:50:20.825 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 09:50:20.825 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:50:21.474 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:50:21.474 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:50:21.880 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 09:50:21.880 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:50:22.169 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:50:22.169 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:50:25.583 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:50:25.583 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:51:24.101 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:53:24.098 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 09:53:26.454 [info] > git config --get commit.template [8ms]
+2025-05-05 09:53:26.455 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 09:53:26.462 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:53:26.463 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:53:26.479 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-05 09:53:26.480 [info] > git status -z -uall [10ms]
+2025-05-05 09:55:24.100 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:56:05.236 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 09:56:05.236 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:56:34.153 [info] > git config --get commit.template [9ms]
+2025-05-05 09:56:34.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 09:56:34.162 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:56:34.163 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:56:34.184 [info] > git status -z -uall [11ms]
+2025-05-05 09:56:34.185 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 09:57:24.101 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:58:43.435 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:58:43.435 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:58:44.369 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 09:58:44.369 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 09:59:24.101 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 09:59:45.535 [info] > git config --get commit.template [11ms]
+2025-05-05 09:59:45.535 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 09:59:45.543 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 09:59:45.545 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 09:59:45.563 [info] > git status -z -uall [10ms]
+2025-05-05 09:59:45.563 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 10:00:11.216 [info] > git config --get commit.template [9ms]
+2025-05-05 10:00:11.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 10:00:11.224 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:00:11.226 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 10:00:11.243 [info] > git status -z -uall [10ms]
+2025-05-05 10:00:11.245 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 10:00:16.272 [info] > git config --get commit.template [10ms]
+2025-05-05 10:00:16.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 10:00:16.282 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:00:16.283 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 10:00:16.300 [info] > git status -z -uall [10ms]
+2025-05-05 10:00:16.301 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 10:00:21.326 [info] > git config --get commit.template [9ms]
+2025-05-05 10:00:21.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 10:00:21.337 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:00:21.339 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 10:00:21.357 [info] > git status -z -uall [11ms]
+2025-05-05 10:00:21.358 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 10:00:32.370 [info] > git config --get commit.template [1ms]
+2025-05-05 10:00:32.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 10:00:32.394 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:00:32.395 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 10:00:32.419 [info] > git status -z -uall [14ms]
+2025-05-05 10:00:32.419 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-05 10:00:51.519 [info] > git config --get commit.template [9ms]
+2025-05-05 10:00:51.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 10:00:51.528 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:00:51.529 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 10:00:51.549 [info] > git status -z -uall [13ms]
+2025-05-05 10:00:51.549 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-05 10:00:56.577 [info] > git config --get commit.template [11ms]
+2025-05-05 10:00:56.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 10:00:56.588 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:00:56.589 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 10:00:56.609 [info] > git status -z -uall [11ms]
+2025-05-05 10:00:56.609 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 10:01:09.651 [info] > git config --get commit.template [9ms]
+2025-05-05 10:01:09.652 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 10:01:09.659 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:01:09.660 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 10:01:09.679 [info] > git status -z -uall [11ms]
+2025-05-05 10:01:09.680 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 10:01:24.102 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:03:24.102 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:05:24.102 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:06:42.353 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 10:06:42.353 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:06:55.106 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 10:06:55.106 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:07:06.092 [info] > git config --get commit.template [9ms]
+2025-05-05 10:07:06.093 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 10:07:06.101 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:07:06.102 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 10:07:06.120 [info] > git status -z -uall [10ms]
+2025-05-05 10:07:06.121 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 10:07:11.145 [info] > git config --get commit.template [8ms]
+2025-05-05 10:07:11.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 10:07:11.153 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:07:11.155 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 10:07:11.171 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 10:07:11.171 [info] > git status -z -uall [10ms]
+2025-05-05 10:07:16.194 [info] > git config --get commit.template [8ms]
+2025-05-05 10:07:16.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 10:07:16.202 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:07:16.203 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 10:07:16.221 [info] > git status -z -uall [11ms]
+2025-05-05 10:07:16.221 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 10:07:21.244 [info] > git config --get commit.template [8ms]
+2025-05-05 10:07:21.246 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 10:07:21.254 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 10:07:21.254 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 10:07:21.275 [info] > git status -z -uall [12ms]
+2025-05-05 10:07:21.275 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-05 10:07:24.103 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:09:24.104 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 10:11:24.106 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:12:56.589 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:12:56.589 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:12:58.680 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 10:12:58.680 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:13:24.108 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:15:24.108 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 10:15:42.161 [info] > git rev-parse --show-toplevel [10ms]
+2025-05-05 10:15:42.161 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:16:16.184 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 10:16:16.184 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:16:21.891 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 10:16:21.891 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:16:24.294 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:16:24.294 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:16:25.760 [info] > git rev-parse --show-toplevel [5ms]
+2025-05-05 10:16:25.760 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:16:35.680 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 10:16:35.680 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:17:24.111 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [11ms]
+2025-05-05 10:17:31.177 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:17:31.177 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:17:40.821 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 10:17:40.821 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:17:47.048 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 10:17:47.048 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:17:48.075 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:17:48.075 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:17:52.985 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 10:17:52.985 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:17:55.468 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 10:17:55.468 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:18:00.444 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-05 10:18:00.444 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:18:05.814 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 10:18:05.814 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:18:18.432 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:18:18.432 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:19:24.111 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:21:24.111 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:22:17.695 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:22:17.695 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:22:20.144 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:22:20.144 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:23:24.112 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:23:40.513 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 10:23:40.513 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:23:54.888 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:23:54.888 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:24:58.688 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-05 10:24:58.688 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:25:07.396 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:25:07.396 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:25:24.113 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:26:09.539 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 10:26:09.539 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:26:52.202 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:26:52.202 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:27:24.114 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:29:01.283 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:29:01.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:29:24.114 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 10:30:32.765 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 10:30:32.765 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:31:24.115 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:33:24.115 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 10:35:24.117 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:37:24.116 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 10:39:24.118 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:41:24.119 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:43:24.119 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:45:24.121 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:47:24.123 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:49:24.122 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:51:24.125 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:53:24.124 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:54:34.402 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 10:54:34.402 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:54:38.302 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 10:54:38.302 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 10:55:24.125 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:57:24.126 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 10:59:24.126 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:01:07.475 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 11:01:07.475 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:01:24.127 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:02:13.492 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 11:02:13.492 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:02:26.898 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 11:02:26.898 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:03:24.127 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:05:24.129 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:05:52.089 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 11:05:52.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:06:06.701 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-05 11:06:06.701 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:06:10.042 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 11:06:10.042 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:06:28.455 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 11:06:28.455 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:06:45.373 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 11:06:45.373 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:06:48.455 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 11:06:48.455 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:06:56.433 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 11:06:56.433 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:07:01.497 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 11:07:01.497 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:07:24.131 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:09:24.131 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:11:24.134 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:13:24.133 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:15:24.133 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:17:24.137 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [11ms]
+2025-05-05 11:19:24.133 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:21:24.137 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [12ms]
+2025-05-05 11:23:24.179 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:25:24.178 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:27:24.180 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:29:24.183 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:31:24.182 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:33:08.895 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 11:33:08.895 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:33:24.183 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:33:48.129 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 11:33:48.129 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:35:24.184 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:37:24.184 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:39:24.186 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:41:24.186 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:43:24.186 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:45:24.188 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:47:24.188 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:48:24.477 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 11:48:24.477 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:49:24.189 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:49:25.353 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 11:49:25.353 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:51:24.191 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:53:24.191 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:55:24.191 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:57:24.192 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 11:57:26.654 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 11:57:26.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:57:40.220 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 11:57:40.220 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:57:46.012 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 11:57:46.012 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:58:25.186 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 11:58:25.186 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:58:40.756 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 11:58:40.756 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:58:45.526 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 11:58:45.526 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:58:49.426 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 11:58:49.426 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 11:59:24.193 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 11:59:37.262 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 11:59:37.262 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:01:24.195 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 12:03:24.195 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 12:05:24.196 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 12:07:24.197 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:07:57.479 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 12:07:57.479 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:09:24.197 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:11:24.198 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:13:24.198 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:15:24.198 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 12:17:24.201 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:19:24.201 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:21:24.203 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:23:24.202 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:25:24.203 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:26:09.939 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 12:26:09.939 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:27:24.203 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 12:29:24.204 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:31:24.204 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:33:22.378 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 12:33:22.378 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:33:24.206 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:35:24.207 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:37:24.210 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:38:01.919 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 12:38:01.919 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:38:10.797 [info] > git config --get commit.template [0ms]
+2025-05-05 12:38:10.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 12:38:10.813 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 12:38:10.814 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 12:38:10.830 [info] > git status -z -uall [10ms]
+2025-05-05 12:38:10.831 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-05 12:38:15.855 [info] > git config --get commit.template [9ms]
+2025-05-05 12:38:15.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 12:38:15.863 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 12:38:15.864 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 12:38:15.882 [info] > git status -z -uall [9ms]
+2025-05-05 12:38:15.883 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 12:38:16.568 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 12:38:16.568 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:38:23.522 [info] > git config --get commit.template [9ms]
+2025-05-05 12:38:23.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 12:38:23.531 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 12:38:23.532 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 12:38:23.551 [info] > git status -z -uall [11ms]
+2025-05-05 12:38:23.551 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 12:38:24.601 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 12:38:24.601 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:38:32.590 [info] > git config --get commit.template [8ms]
+2025-05-05 12:38:32.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 12:38:32.597 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 12:38:32.598 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 12:38:32.615 [info] > git status -z -uall [9ms]
+2025-05-05 12:38:32.616 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 12:38:45.057 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 12:38:45.057 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:38:51.289 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 12:38:51.289 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:38:54.742 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 12:38:54.742 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:39:00.957 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 12:39:00.957 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:39:03.619 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 12:39:03.619 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:39:24.209 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:41:24.209 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 12:43:24.211 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:45:24.212 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:47:24.212 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:49:24.212 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 12:49:48.601 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 12:49:48.601 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:51:24.214 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 12:51:28.503 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 12:51:28.503 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:53:24.215 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 12:55:24.216 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:57:24.217 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 12:59:13.500 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 12:59:13.501 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:59:14.820 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 12:59:14.820 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 12:59:22.078 [info] > git config --get commit.template [8ms]
+2025-05-05 12:59:22.079 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 12:59:22.086 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 12:59:22.087 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 12:59:22.110 [info] > git status -z -uall [16ms]
+2025-05-05 12:59:22.115 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-05-05 12:59:24.217 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 12:59:27.143 [info] > git config --get commit.template [8ms]
+2025-05-05 12:59:27.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 12:59:27.152 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 12:59:27.153 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 12:59:27.170 [info] > git status -z -uall [10ms]
+2025-05-05 12:59:27.170 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 13:01:24.221 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [13ms]
+2025-05-05 13:01:27.413 [info] > git config --get commit.template [9ms]
+2025-05-05 13:01:27.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 13:01:27.421 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:01:27.422 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 13:01:27.439 [info] > git status -z -uall [10ms]
+2025-05-05 13:01:27.440 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 13:03:24.218 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:03:41.360 [info] > git config --get commit.template [1ms]
+2025-05-05 13:03:41.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 13:03:41.378 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:03:41.379 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 13:03:41.396 [info] > git status -z -uall [10ms]
+2025-05-05 13:03:41.396 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 13:04:16.724 [info] > git config --get commit.template [8ms]
+2025-05-05 13:04:16.725 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 13:04:16.732 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:04:16.733 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 13:04:16.750 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 13:04:16.750 [info] > git status -z -uall [10ms]
+2025-05-05 13:05:21.411 [info] > git rev-parse --show-toplevel [9ms]
+2025-05-05 13:05:21.411 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:05:24.218 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:05:32.495 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-05 13:05:32.495 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:06:33.203 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 13:06:33.203 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:06:34.602 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 13:06:34.602 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:06:36.433 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:06:36.433 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:07:24.219 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:09:24.220 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:11:24.223 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:13:24.222 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:15:24.224 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:17:24.225 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:19:24.226 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:19:59.590 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:19:59.590 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:21:24.226 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:22:28.957 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:22:28.957 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:22:29.996 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 13:22:29.996 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:22:42.471 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 13:22:42.471 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:23:08.818 [info] > git config --get commit.template [1ms]
+2025-05-05 13:23:08.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-05-05 13:23:08.838 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:23:08.839 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 13:23:08.858 [info] > git status -z -uall [10ms]
+2025-05-05 13:23:08.859 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 13:23:13.883 [info] > git config --get commit.template [8ms]
+2025-05-05 13:23:13.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 13:23:13.891 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:23:13.892 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 13:23:13.910 [info] > git status -z -uall [10ms]
+2025-05-05 13:23:13.910 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-05 13:23:24.227 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:23:28.284 [info] > git config --get commit.template [2ms]
+2025-05-05 13:23:28.293 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 13:23:28.300 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:23:28.302 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 13:23:28.322 [info] > git status -z -uall [13ms]
+2025-05-05 13:23:28.322 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-05-05 13:24:28.192 [info] > git config --get commit.template [9ms]
+2025-05-05 13:24:28.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 13:24:28.201 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:24:28.202 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 13:24:28.221 [info] > git status -z -uall [12ms]
+2025-05-05 13:24:28.222 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-05 13:24:33.246 [info] > git config --get commit.template [9ms]
+2025-05-05 13:24:33.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 13:24:33.254 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:24:33.255 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 13:24:33.271 [info] > git status -z -uall [9ms]
+2025-05-05 13:24:33.272 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 13:24:38.295 [info] > git config --get commit.template [8ms]
+2025-05-05 13:24:38.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 13:24:38.304 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:24:38.305 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 13:24:38.324 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 13:24:38.326 [info] > git status -z -uall [12ms]
+2025-05-05 13:25:03.047 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 13:25:03.047 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:25:18.317 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:25:18.317 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:25:24.227 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:25:28.325 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 13:25:28.325 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:26:20.001 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:26:20.001 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:27:24.228 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:29:23.442 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 13:29:23.443 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:29:24.229 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:29:41.474 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:29:41.474 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:29:46.348 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 13:29:46.348 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:30:20.580 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:30:20.580 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:30:29.479 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-05 13:30:29.479 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:30:43.881 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:30:43.881 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:30:51.791 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-05 13:30:51.792 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:31:24.229 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:31:39.374 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-05 13:31:39.374 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:32:18.691 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-05 13:32:18.691 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:32:23.431 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:32:23.431 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:32:27.382 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:32:27.382 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:32:31.598 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 13:32:31.598 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:32:59.030 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 13:32:59.030 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:33:17.084 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:33:17.084 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:33:24.230 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:33:25.987 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 13:33:25.987 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:33:27.094 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-05 13:33:27.094 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:33:28.337 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 13:33:28.338 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:33:50.276 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-05 13:33:50.276 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:34:02.640 [info] > git config --get commit.template [10ms]
+2025-05-05 13:34:02.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 13:34:02.655 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:34:02.660 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-05-05 13:34:02.683 [info] > git status -z -uall [10ms]
+2025-05-05 13:34:02.684 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 13:35:02.089 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-05 13:35:02.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-05 13:35:11.429 [info] > git config --get commit.template [8ms]
+2025-05-05 13:35:11.431 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-05 13:35:11.439 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:35:11.440 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-05 13:35:11.458 [info] > git status -z -uall [10ms]
+2025-05-05 13:35:11.460 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-05 13:35:16.484 [info] > git config --get commit.template [8ms]
+2025-05-05 13:35:16.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-05 13:35:16.493 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/TWSThreeTierAppChallenge/.git/refs/remotes/origin/main'
+2025-05-05 13:35:16.494 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-05 13:35:16.510 [info] > git status -z -uall [9ms]
+2025-05-05 13:35:16.511 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-05 13:35:24.230 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:37:24.231 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:39:24.231 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:41:24.231 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:43:24.232 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:45:24.233 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:47:24.233 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:49:24.234 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:51:24.233 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 13:53:24.234 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:55:24.235 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:57:24.236 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 13:59:24.237 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 14:01:24.238 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 14:03:24.238 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:05:24.238 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 14:07:24.240 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:09:24.241 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:11:24.241 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 14:13:24.240 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 14:15:24.241 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:17:24.240 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 14:19:24.242 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:21:24.243 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:23:24.243 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:25:24.243 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:27:24.244 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:29:24.245 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:31:24.245 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:33:24.246 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:35:24.246 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:37:24.246 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:39:24.246 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:41:24.248 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [12ms]
+2025-05-05 14:43:24.248 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 14:45:24.248 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 14:47:24.248 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 14:49:24.250 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:51:24.251 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:53:24.251 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 14:55:24.252 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:57:24.253 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 14:59:24.253 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 15:01:24.254 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 15:03:24.255 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:05:24.255 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:07:24.255 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:09:24.256 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:11:24.258 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:13:24.258 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:15:24.259 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:17:24.261 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:19:24.262 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 15:21:24.261 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 15:23:24.262 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:25:24.263 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:27:24.264 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:29:24.264 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 15:31:24.267 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:33:24.265 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 15:35:24.267 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:37:24.268 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:39:24.268 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 15:41:24.271 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:43:24.271 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 15:45:24.272 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:47:24.273 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 15:49:24.274 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:51:24.275 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:53:24.277 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:55:24.278 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:57:24.279 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 15:59:24.279 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:01:24.279 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:03:24.280 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:05:24.282 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 16:07:24.284 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:09:24.285 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:11:24.286 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:13:24.288 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [11ms]
+2025-05-05 16:15:24.287 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 16:17:24.287 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:19:24.290 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:21:24.292 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:23:24.290 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 16:25:24.292 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:27:24.293 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:29:24.295 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:31:24.294 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:33:24.295 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:35:24.296 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]
+2025-05-05 16:37:24.296 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [9ms]
+2025-05-05 16:39:24.297 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [10ms]

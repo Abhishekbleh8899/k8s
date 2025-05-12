@@ -1,0 +1,32 @@
+2025-05-12 05:33:02.681 [info] 
+
+
+
+
+2025-05-12 05:33:02.698 [info] Extension host agent started.
+2025-05-12 05:33:02.827 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:02.851 [info] [<unknown>][f2b40b83][ExtensionHostConnection] New connection established.
+2025-05-12 05:33:02.853 [info] [<unknown>][5a9fb51f][ManagementConnection] New connection established.
+2025-05-12 05:33:02.857 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:02.889 [info] Deleted marked for removal extension from disk github.copilot /home/ubuntu/.vscode-server/extensions/github.copilot-1.314.0
+2025-05-12 05:33:02.928 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:02.989 [info] [<unknown>][f2b40b83][ExtensionHostConnection] <182156> Launched Extension Host Process.
+2025-05-12 05:33:03.190 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:03.543 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:03.794 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:03.873 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:04.271 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:04.719 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:05.027 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:05.297 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:05.596 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:05.784 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:05.943 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:30.012 [info] Getting Manifest... github.vscode-pull-request-github
+2025-05-12 05:33:30.047 [info] Installing extension: github.vscode-pull-request-github {"productVersion":{"version":"1.100.0","date":"2025-05-07T12:50:07.413Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2025-05-12 05:33:30.382 [error] [/home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0]: Extension is not compatible with Code 1.99.3. Extension requires: ^1.100.0.
+2025-05-12 05:33:30.384 [error] Error while installing the extension github.vscode-pull-request-github Cannot read the extension from /home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0 file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-05-12 05:38:02.699 [info] New EH opened, aborting shutdown
+2025-05-12 07:00:44.549 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-05-12 07:01:55.865 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-05-12 07:01:55.866 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
